@@ -24,7 +24,6 @@ public class Main {
         _arrayListAdding.remove(1);
         _arrayListAdding.remove(1);
         _arrayListAdding.remove(1);
-        // _arrayListAdding.remove(3);
         //Printout elements who want to remove
         System.out.println("Hewan yang dihapus: \n\n"+_arrayListRemoving+"\n");
         System.out.println("Output Hewan : \n\n"+_arrayListAdding);
