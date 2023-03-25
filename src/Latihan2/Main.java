@@ -21,9 +21,9 @@ public class Main {
         _arrayListRemoving.add("Kambing");
         _arrayListRemoving.add("Unta");
         //Semua yang diremove adalah index 1 karena ketika kelinci (index 1) di hapus maka total index berkurang dari 4 menjadi 3
-        _arrayListAdding.remove(1);
-        _arrayListAdding.remove(1);
-        _arrayListAdding.remove(1);
+        _arrayListAdding.remove(_arrayListRemoving.get(0));
+        _arrayListAdding.remove(_arrayListRemoving.get(1));
+        _arrayListAdding.remove(_arrayListRemoving.get(2));
         //Printout elements who want to remove
         System.out.println("Hewan yang dihapus: \n\n"+_arrayListRemoving+"\n");
         System.out.println("Output Hewan : \n\n"+_arrayListAdding);
