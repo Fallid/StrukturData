@@ -2,7 +2,7 @@ package Latihan2;
 
 import java.util.ArrayList;
 
-public class Main {
+public class arrayList {
     public static void main(String[] args) {
         ArrayList<String> _arrayListAdding = new ArrayList<>();
         ArrayList<String> _arrayListRemoving = new ArrayList<>();
