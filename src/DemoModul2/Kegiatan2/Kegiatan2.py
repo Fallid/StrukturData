@@ -101,14 +101,14 @@ class LinkedList:
         self.head = None
     
     def sorting(self):
-        arraylist = []
+        array = []
         elements = self.head
         while elements:
-            arraylist.append(elements.data)
+            array.append(elements.data)
             elements = elements.next
-        arraylist.sort()
+        array.sort()
         print("\nAfter  : ", end="")
-        print(*arraylist)
+        print(*array)
             
         
         
