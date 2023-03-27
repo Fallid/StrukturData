@@ -1,4 +1,4 @@
-package Latihan1;
+package LatihanModul1;
 
 import java.util.ArrayList;
 

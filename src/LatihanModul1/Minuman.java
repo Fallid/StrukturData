@@ -1,4 +1,4 @@
-package Latihan1;
+package LatihanModul1;
 
 public class Minuman extends Hidangan {
     public String disantap(){

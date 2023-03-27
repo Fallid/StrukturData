@@ -1,4 +1,4 @@
-package Latihan1;
+package LatihanModul1;
 
 public class Hidangan {
     protected String namaHidangan;

@@ -1,4 +1,4 @@
-package Latihan1;
+package LatihanModul1;
 
 public class Konsumsi <M, I>{
     private M m;

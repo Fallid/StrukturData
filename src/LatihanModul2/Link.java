@@ -1,4 +1,4 @@
-package Latihan2;
+package LatihanModul2;
 
 public class Link {
     Node head;
