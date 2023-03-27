@@ -1,4 +1,4 @@
-package DemoModul2;
+package DemoModul2.Kegiatan1;
 
 class Main{
     public static void main(String[] args) {
