@@ -2,23 +2,23 @@ package DemoModul3.Java;
 
 public class Stack {
     private int MaxSize;
-    private long[] stackArray;
+    private String[] stackArray;
     private int top;
 
     public Stack(int a){
         MaxSize = a;
-        stackArray = new long[MaxSize];
+        stackArray = new String[MaxSize];
         top = -1;
     }
 
-    public void push(long j){
+    public void push(String j){
         stackArray[++top] = j;
     }
 
-    public long pop(){
+    public String pop(){
         return stackArray[top--];
     }
-    public long peek(){
+    public String peek(){
         return stackArray[top];
     }
     public boolean isEmpty(){

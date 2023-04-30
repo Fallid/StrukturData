@@ -3,14 +3,17 @@ package DemoModul3.Java;
 public class Kegiatan1 {
     public static void main(String[] args) {
         Stack theStack = new Stack(10);
-        theStack.push(9);
-        theStack.push(30);
-        theStack.push(10);
+        theStack.push("Struktur");
+        theStack.push("Data");
+
+        char[] reverse;
         while (!theStack.isEmpty()){
-            long value = theStack.pop();
-            System.out.print(value);
-            System.out.print(" ");
+            String value = theStack.pop();
+            reverse = value.toCharArray();
+            for (int i = reverse.length -1; i >= 0; i--){
+                System.out.print(reverse[i]);
+            }
         }
-        System.out.println("");
+        // System.out.println("");
     }
 }
