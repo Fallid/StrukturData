@@ -14,6 +14,5 @@ public class Kegiatan1 {
                 System.out.print(reverse[i]);
             }
         }
-        // System.out.println("");
     }
 }

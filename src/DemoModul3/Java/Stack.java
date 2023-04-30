@@ -1,5 +1,5 @@
 package DemoModul3.Java;
-
+//Class Stack Modul 3
 public class Stack {
     private int MaxSize;
     private String[] stackArray;
