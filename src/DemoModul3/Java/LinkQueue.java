@@ -25,7 +25,6 @@ public class LinkQueue {
     }
 
     public void displayQueue(){
-        System.out.println("Head to tail : ");
         theList.displayLisk();
     }
 }

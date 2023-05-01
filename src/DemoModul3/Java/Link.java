@@ -9,6 +9,6 @@ public class Link {
     }
 
     public void displayLink(){
-        System.out.print(dataItem + " ");
+        System.out.print(dataItem);
     }
 }

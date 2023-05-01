@@ -36,6 +36,7 @@ public class FirstLastList {
         Link sekarang = first;
         while(sekarang != null){
             sekarang.displayLink();
+            System.out.print("\t| ");
             sekarang = sekarang.next;
         }
         System.out.println("");
