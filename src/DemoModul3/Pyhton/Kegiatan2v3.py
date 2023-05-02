@@ -81,7 +81,7 @@ if __name__ == '__main__':
             
             print("Harga Barang\t: ", end="\b")
             inputHarga = input()
-            hargaBarang.EnQueue(inputHarga)
+            hargaBarang.EnQueue("Rp."+inputHarga)
             
             print("\nData Berhasil Ditambahkan! \nTekan apapun untuk kembali ke halaman utama...")
             input()
