@@ -47,7 +47,8 @@ class Queue:
 
 if __name__ == '__main__':
     q = Queue()
-    q.EnQueue(40)
+    
+    q.EnQueue("Ini string")
     q.EnQueue(20)
     q.EnQueue(30)
     # q.DeQueue()

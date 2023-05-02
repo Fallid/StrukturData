@@ -15,7 +15,7 @@ public class Kegiatan2 {
             namaBarang.enqueue("PUMA-PRIME");
             hargaBarang.enqueue("Rp.800.000");
             
-            while(!inputData.equals("4")){
+            while(!inputData.equals("5")){
             System.out.println("Antiran pesanan masuk (Kiri --> Kanan):\n");
             System.out.print("|Jenis\t: ");
             jenisBarang.displayQueue();
@@ -24,7 +24,7 @@ public class Kegiatan2 {
             System.out.print("|Harga\t: ");
             hargaBarang.displayQueue();
             System.out.println("Menu Pilihan:");
-            System.out.print("[1] Tambah item. \n[2] Item selesai diproses. \n[3] Total item. \n[4] Exit Program. \nPilih: ");
+            System.out.print("[1] Tambah item. \n[2] Item selesai diproses. \n[3] Total item. \n[4] Pesanan teratas. \n[5] Exit program. \nPilih: ");
             dataUser = inputData.nextLine();
 
                 switch (dataUser) {
@@ -75,18 +75,29 @@ public class Kegiatan2 {
                                 break;
                                 
                             default:
-                                System.out.println("Pesanan gagal diselesaikan! \nTekan apapun untuk kembali ke halaman utama...");
+                                System.out.println("\nPesanan gagal diselesaikan! \nTekan apapun untuk kembali ke halaman utama...");
                                 inputData.nextLine();
                                 break;
                         }
                         break;
                     case "3":
-                        System.out.print("\nJumlah pesanan : " + namaBarang.size() + " item(s)\nTekan apa saja untuk melanjutkan program.\n");
+                        System.out.print("\nJumlah pesanan : " + namaBarang.size() + " item(s)\nTekan apa saja untuk kembali ke halaman utama...\n");
                         inputData.nextLine();
                         System.out.println("\n");
                         break;
                     case "4":
-                        System.out.println("Ini pilihan ke 4");
+                        System.out.println("\n==== Pesanan Teratas ====");
+                        System.out.print("Jenis\t: ");
+                        jenisBarang.peek();
+                        System.out.print("Nama\t: ");
+                        namaBarang.peek();
+                        System.out.print("Harga\t: ");
+                        hargaBarang.peek();
+                        System.out.println("\nTekan apa saja untuk kembali ke halaman utama...");
+                        inputData.nextLine();
+                        break;
+                    case "5":
+                        System.out.println("Program berhenti...");
                         System.exit(100);
                     default:
                         System.out.println("Terjadi kesalahan saat melakukan input!");

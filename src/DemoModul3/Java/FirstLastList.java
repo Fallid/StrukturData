@@ -31,6 +31,16 @@ public class FirstLastList {
         first = first.next;
         return temp;
     }
+    public void peekFirst(){
+        try{
+            String temp = (String) first.dataItem;
+            System.out.println(temp);
+        }catch(Exception err){
+            System.out.println("Tidak ada data atau data kosong!");
+
+        }
+        
+    }
 
     public void displayLisk(){
         Link sekarang = first;

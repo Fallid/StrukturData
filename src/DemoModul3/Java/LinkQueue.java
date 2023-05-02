@@ -27,4 +27,8 @@ public class LinkQueue {
     public void displayQueue(){
         theList.displayLisk();
     }
+
+    public void peek(){
+        theList.peekFirst();
+    }
 }
