@@ -21,6 +21,7 @@ public class LinkQueue {
         qsize += 1;
     }
     public String dequeue(){
+        qsize -= 1;
         return theList.deleteFirst();
     }
 
