@@ -24,7 +24,7 @@ public class Kegiatan1 {
             }while(obj.loginEmail(inputEmail, inputPassword) == false);
 
             while(logout == false){
-                System.out.print("==== MODUL 4 DATA PRAKTIKAN ==== \n[1]Tambah Data. \n[2]Tampil Data. \n[3]List NIM Praktikan. \n[4]List Nama Asisten. \n[5]Total Data. \n[6]Hapus Data. \n[7]Edit Data. \n[8]Exit. \nPilih : ");
+                System.out.print("==== MODUL 4 DATA PRAKTIKAN ==== \n[1]Tambah Data. \n[2]Tampil Data. \n[3]List NIM Praktikan. \n[4]List Nama Asisten. \n[5]Total Data. \n[6]Hapus Data. \n[7]Edit Data. \n[8]Log Out. \nPilih : ");
                 pilihMenu = inputData.nextLine();
                 if(pilihMenu.matches("[0-9]+")){
                     switch(pilihMenu){
