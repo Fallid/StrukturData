@@ -98,15 +98,19 @@ public class Kegiatan1 {
                             System.out.println("\n==== LOG OUT ==== \nBerhasil Log Out");
                             logout = true;
                             break;
-
-                        default:
+                            
+                            default:
                             System.out.println("\n==== PILIHAN TIDAK ADA ====\n\n");
                             break;
+                        case "9":
+                            System.out.println("\n==== EXIT ====\n\nProgram Berhenti...");
+                            System.exit(100);
+                        }
+                    }else{
+                        System.out.println("Format yang dimasukkan salah!\n\n");
                     }
-                }else{
-                    System.out.println("Format yang dimasukkan salah!\n\n");
                 }
-            }
+            main(args);
         }catch(Exception err){
             System.out.println(err);
         }
